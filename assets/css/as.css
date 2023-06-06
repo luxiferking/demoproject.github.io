@@ -1,0 +1,111 @@
+
+.borders {
+    max-width: 100%;
+    height: auto;
+    border-radius: 36px;
+    border-bottom: 8px solid blue;
+    border-right: 8px solid black;
+  }
+  
+  
+  .border {
+    border: 1px solid blue;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blue;
+  }
+  
+  .align-right {
+    float: right
+  }
+  
+  .fonttwentyfive {
+    font-size: 45px;
+    color: #ffff;
+    font-weight: 700;
+    display: contents;
+  }
+  
+  .box {
+    background: white;
+    padding: 1px;
+    border-radius: 5px;
+  }
+  
+  .giveit {
+    font-size: 25px;
+    color: #ffff;
+    font-weight: 500;
+  }
+  
+  .giveitthis {
+    color: white;
+    font-weight: 600;
+    font-size: 37px;
+    font-size: 30px;
+  }
+  
+  .borderorange {
+    border: 1px solid rgb(189, 89, 35);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(193, 82, 23);
+  }
+  
+  .colourorange {
+    color: orange;
+    font-size: 20px;
+  }
+  
+  .colourblue {
+    color: blue;
+    font-size: 20px;
+  
+  }
+  
+  .nav-menu a:hover {
+    background: #ffff;
+    color: rgb(15, 0, 102);
+    width: 100%;
+    border-left: 15px;
+  }
+  
+  .nav-menu a:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(15, 0, 102);
+    width: 193%;
+    border-radius: 20px 20px 20px 20px;
+  }
+  
+  .high {
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .low {
+    text-align: center;
+  }
+  
+  @media screen and (max-width:612px) {
+    .border {
+      border: 1px solid blue;
+      margin: 0px;
+      padding: 10px;
+      border-radius: 10px;
+      width: 100%;
+      background-color: blue;
+    }
+  }
+  
+  @media screen and (max-width:612px) {
+    .borderorange {
+      border: 1px solid orange;
+      margin: 0px;
+      padding: 10px;
+      border-radius: 10px;
+      width: 100%;
+      background-color: orange;
+    }
+  }
